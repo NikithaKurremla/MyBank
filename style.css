@@ -1,18 +1,57 @@
-/* *{
-   
-    display: flex;
+*{
+    margin: 0;  
+  }
+  .container {
+      margin: 0;
+  }
+  .header {
+      padding: 10px;
+      background-color:#FCFFC1;
+      display: flex;
+      justify-content: space-between;
+  }
+  .productBlock{
+      background-color: #FFE893;
+  }
+  .row {
+    
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+  }
+  .box {
+      background-color: #FBB4A5;
+      margin: 10px;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  .cartBlock {
+      background-color: #33186B;
+      width: 300px;
+      position: fixed;
+      top:0px;
+      left:100%;
+      height: 100%;
+      padding: 20px;
+      transition: 2s;
+  }
+  .login{
+    width: 250px;
+    height: 250px;
+    border:2px solid black;
+    background-color:white;
     justify-content: center;
-} */
-.header {
-    background-color: black;
-    color: white;
-    justify-content: center;
-    display: flex;
-}
-body{
-    background-color: rgb(193, 243, 243);
-}
-.login{
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #A3D1C6;
+    /* margin-left: 40.625rem; */
+
+    margin: auto;
+  }
+  .login input,button{
+    margin: 8px;
+  }
+  .registration{
     width: 250px;
     height: 250px;
     border:2px solid black;
@@ -21,53 +60,13 @@ body{
     border-radius: 10px;
     padding: 50px;
     /* margin-left: 40.625rem; */
+
     margin: auto;
-    
-}
-.login:hover{
-    box-shadow: 4px 2px 2px 5px rgb(20,15,15);
-    height: 250px;
-    width: 250px;
-}
-input{
-    border-radius: 3px;
-    border:2px solid black;
-}
-button{
-    background-color: black;
-    color: white;
-    border-radius: 3px;
-    border:2px solid black;
-}
-.reg{
-    height: 300px;
-    width: 200px;
-    border:2px solid black;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 50px;
-    /* margin-left:40.625rem; */
-    margin: auto;
-    background-color: rgb(255,255,255);
-}
-.reg:hover{
-    box-shadow: 4px 2px 2px 5px rgb(20,15,15);
-    height: 250px;
-    width: 250px;
-}
-#res{
-    height: 300px;
-    width: 200px;
-     border:2px solid black;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 50px;
-    /* margin-left: 40.625rem ; */
-    margin: auto;
-    background-color: rgb(255,255,255);
-}
-#res:hover{
-    box-shadow: 4px 2px 2px 5px rgb(20,15,15);
-    height: 250px;
-    width: 250px;
+  }
+  .registration input,button{
+    margin: 8px;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 5px;
 }
